@@ -18,3 +18,13 @@ def check(x):
         return x
 evens=list(filter(check, range(2,30)))
 print(evens)
+         
+#Q3:FIND THE SECOND LARGEST NUMBER (LIST)
+#SOLUTION
+digits=[]
+value = (int(input("Number of element you wanna insert : ")))
+for i in range(1, value + 1):
+    item = int(input("Enter the no-{} element: ".format(i)))
+    digits.append(item)
+digits.sort()
+print("Second largest number is : " , digits[-2])
