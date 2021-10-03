@@ -18,4 +18,3 @@ def check(x):
         return x
 evens=list(filter(check, range(2,30)))
 print(evens)
-            
