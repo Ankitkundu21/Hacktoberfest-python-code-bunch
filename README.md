@@ -1,2 +1,2 @@
-# hacktoberfest-python-code-bunch
+# Hacktoberfest-Python-Code-Bunch
 Python code with different different approaches.
