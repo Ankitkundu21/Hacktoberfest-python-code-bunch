@@ -1,4 +1,4 @@
-#SUM OF DIGITS [USING append()]
+#Q1:SUM OF DIGITS [USING append()]
 
 #SOLUTION :
 digits=[]
@@ -10,4 +10,12 @@ for i in digits:
 print(digits)
 print("Sum of digits is : ", sum)
 
+#Q2: CHECK EVEN NUMBERS BETWEEN CERTAIN RANGE OF VALUE 
+#SOLUTION :
+
+def check(x):
+    if(x % 2 == 0 or x % 4 == 0):
+        return x
+evens=list(filter(check, range(2,30)))
+print(evens)
             
