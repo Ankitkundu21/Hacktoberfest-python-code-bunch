@@ -28,3 +28,13 @@ for i in range(1, value + 1):
     digits.append(item)
 digits.sort()
 print("Second largest number is : " , digits[-2])
+
+#Count the No Of Vowel in a String
+#solution:
+n=input('enter a value')
+c= 0
+v='aeiouAEIOU'
+for i in n:
+   if i in v:
+        c = c+1
+print (c)
