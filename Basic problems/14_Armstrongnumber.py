@@ -1,0 +1,11 @@
+n=int(input())
+x=n
+sum=0
+while(x>0):
+    k=x%10
+    sum+=k**3
+    x//=10
+if(sum==n):
+    print("Yes")
+else:
+    print("No")
