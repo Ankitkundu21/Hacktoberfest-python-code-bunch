@@ -12,7 +12,6 @@ print("Sum of digits is : ", sum)
 
 #Q2: CHECK EVEN NUMBERS BETWEEN CERTAIN RANGE OF VALUE 
 #SOLUTION :
-
 def check(x):
     if(x % 2 == 0 or x % 4 == 0):
         return x
