@@ -28,15 +28,12 @@ for i in range(1, value + 1):
 digits.sort()
 print("Second largest number is : " , digits[-2])
 
-#Q4: SUM OF DIGITS ( USING REDUCE() )
-#SOLUTION : 
-import functools # functools is a module  that contains function reduce()
-
-def sod(x,y):
-    return x+y
-list=[]
-for i in range(0,11):
-    list.append(i)   
-print("Sum of digits value is : ")
-print(functools.reduce(sod, list))
-
+#Count the No Of Vowel in a String
+#solution:
+n=input('enter a value')
+c= 0
+v='aeiouAEIOU'
+for i in n:
+   if i in v:
+        c = c+1
+print (c)
