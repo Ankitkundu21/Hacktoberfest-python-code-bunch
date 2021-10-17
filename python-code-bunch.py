@@ -12,7 +12,6 @@ print("Sum of digits is : ", sum)
 
 #Q2: CHECK EVEN NUMBERS BETWEEN CERTAIN RANGE OF VALUE 
 #SOLUTION :
-
 def check(x):
     if(x % 2 == 0 or x % 4 == 0):
         return x
@@ -41,3 +40,11 @@ for i in range(0,11):
 print("Sum of digits value is : ")
 print(functools.reduce(sod, list))
 
+#Q5: #Swap elements based on position:
+#SOLUTION : 
+
+list=[62,12,8,76]
+def newlist(list):
+    list[1],list[2]= list[2], list[1]
+    return list
+print(newlist(list))
