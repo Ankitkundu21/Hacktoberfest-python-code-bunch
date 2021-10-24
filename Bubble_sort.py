@@ -1,3 +1,6 @@
+# Python Implementation of Bubble Sort
+# Worst Case time complexity: O(n*n)
+# Best Case time complexity: O(n)
 def bubble_sort(arr):
     for x in range(len(arr)):
         for j in range(0,len(arr)-x-1):
